@@ -45,6 +45,8 @@ width: 1
 height: 5
 sprite: web-bullet
 hitsize: 4
+      status: wrapped
+      statusDuration: 60
 buildingDamageMultiplier: 0.01
       hitEffect: none
       despawnEffect: none
@@ -72,6 +74,8 @@ width: 1
 height: 5
 sprite: web-bullet
 hitsize: 4
+      status: wrapped
+      statusDuration: 60
 buildingDamageMultiplier: 0.01
       hitEffect: none
       despawnEffect: none
