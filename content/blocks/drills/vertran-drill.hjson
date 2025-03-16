@@ -17,18 +17,3 @@ research: Coregenesis
 researchCost: [
 vertran/60
 ]
-drawer: {
-  type: DrawMulti
-  drawers: [
-	{
-	type: DrawDefault
-	},
-	{
-	type: DrawWarmupRegion
-	},
-	{
-	type: DrawGlowRegion
-	color: a4a2cf
-	},
-  ]
-}
