@@ -1,0 +1,22 @@
+speedMultiplier : 0.33
+damage: 0
+color : b3b3b3
+name : wrapped
+
+effect : {
+    
+    type : MultiEffect
+    
+    effects : [
+        {
+            particles : 12
+            colorFrom : ffffff
+            sizeFrom : 1
+            lifetime : 10
+            colorTo : 676767
+            sizeTo : 0
+            length : 8
+            type : ParticleEffect
+            cone : 360
+        }]
+}
