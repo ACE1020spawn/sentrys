@@ -1,0 +1,39 @@
+speedMultiplier : 0.60
+damage: 1
+color : ee8ccc
+name : crystallized
+
+          despawnEffect: { 
+            type: MultiEffect
+              effects: [ 
+                { 
+                  type: WaveEffect"
+                  particles : 1
+                  sides: 0 
+                  sizeFrom: 0 
+                  sizeTo: 20
+                  strokeFrom: 4 
+                  strokeTo: 0 
+                  lifetime: 5
+                  colorFrom: ee8ccc
+                  colorTo: 7d3c66
+              } 
+            ] 
+          }
+effect : {
+ type: MultiEffect 
+            effects: [ 
+              { 
+                type: WaveEffect 
+                particles : 1
+                sides: 0 
+                sizeFrom: 0 
+                sizeTo: 20
+                strokeFrom: 4 
+                strokeTo: 0 
+                lifetime: 5
+                colorFrom: ee8ccc
+                colorTo: 7d3c66
+              } 
+            ]
+} 
