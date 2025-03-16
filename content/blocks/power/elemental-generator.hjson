@@ -1,0 +1,40 @@
+type: ConsumeGenerator
+size: 2
+category: power
+name: elemental generator
+description: produce power from wind etc
+itemDuration: 120
+updateEffect: fuelburn 
+itemCapacity: 0
+health: 120
+requirements: [
+    vertran/32
+  ]
+consumes: {
+
+    }
+outputsPower: true,
+powerProduction: 1
+research: {
+    planet: sentrys,
+	parent: Coregenesis
+	requirements: [
+	  vertran/60
+	]
+  } 
+drawer: {
+  type: DrawMulti
+  drawers: [
+	{
+	type: DrawDefault
+	},
+	{
+	type: DrawWarmupRegion
+	},
+	{
+	type: DrawGlowRegion
+	color: a4a2cf
+	},
+  ]
+}
+

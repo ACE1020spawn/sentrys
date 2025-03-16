@@ -1,0 +1,19 @@
+{
+                "type": "duct",
+	"name": "vertran duct",
+	"description": "moves items forward",
+	"speed": 8,
+	"underBullets": true,
+	"itemCapacity": 3,
+	"armored": false,
+	"bridgeReplacement": "vertran-duct",
+	"requirements": [
+	  "vertran/1",				
+      ]
+	"research": {
+	"parent": "Coregenesis",
+	"requirements": [
+	  "vertran/10"
+	]
+  } 
+}

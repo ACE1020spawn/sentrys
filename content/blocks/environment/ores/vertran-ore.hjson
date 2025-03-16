@@ -1,0 +1,5 @@
+type: StaticWall
+name: vertran
+description: kemet with vertran
+itemDrop: vertran
+wallOre: true

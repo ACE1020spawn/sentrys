@@ -1,0 +1,16 @@
+  localizedName: vertran
+  name: vertran
+  description: "Your first resource on Sentrys, iron with impurities of hydroxene, making it a very good metal"
+  explosiveness: 0
+  flammability: 0
+  radioactivity: 0
+  charge: 0
+  color: 5b5577
+  cost: 1
+  hiddenOnPlanets: [
+    serpulo
+    erekir
+  ]
+  research: {
+    parent: Coregenesis
+  }

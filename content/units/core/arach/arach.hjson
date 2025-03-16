@@ -1,0 +1,80 @@
+type: legs
+legCount: 6
+legLength: 6
+legSpeed: 1
+legForwardScl: 0.4
+legMoveSpace: 0.3
+hovering: true
+groundLayer: 60
+name: arach
+description: genesis core unit
+health: 360
+armor: 1
+mineFloor: true
+mineWalls: true
+speed: 2
+hitSize: 4
+isEnemy: false
+mineSpeed: 2
+mineTier: 2
+buildSpeed: 1
+drag: 0.4
+itemCapacity: 20
+alwaysUnlocked: true
+outlineColor:0a080a
+weapons: [
+  {
+    x: -1
+    y: 0
+    mirror: false
+    name: arach-weapon-l
+    continuous: false
+    alwaysContinuous: false
+    reload: 50
+    ejectEffect: none
+    shootSound: webshot
+    shootX: -3
+    bullet: {
+type: BasicBulletType
+damage: 15
+pierce: true
+pierceCap: 3
+lifetime: 60
+speed: 6
+width: 1
+height: 5
+sprite: web-bullet
+hitsize: 4
+buildingDamageMultiplier: 0.01
+      hitEffect: none
+      despawnEffect: none
+    }
+  }
+  {
+    x: 1
+    y: 0
+    mirror: false
+    name: arach-weapon-r
+    continuous: false
+    alwaysContinuous: false
+     reload: 50
+    ejectEffect: none
+    shootSound: webshot
+    shootX: 3
+    bullet: {
+type: BasicBulletType
+damage: 15
+pierce: true
+pierceCap: 3
+lifetime: 60
+speed: 6
+width: 1
+height: 5
+sprite: web-bullet
+hitsize: 4
+buildingDamageMultiplier: 0.01
+      hitEffect: none
+      despawnEffect: none
+    }
+  }
+]

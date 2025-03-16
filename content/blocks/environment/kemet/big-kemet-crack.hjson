@@ -1,0 +1,23 @@
+type: SteamVent
+name: "big kemet crack"
+parent: kemet-floor
+blendGroup: kemet-floor
+variants: 1
+effect: {
+particles: 3
+length: 80
+lifetime: 40
+cone: 20
+baseRotation: 30
+sizeFrom: 0
+sizeTo: 5
+colorFrom: 52392f90
+colorTo: 2e282210
+sizeInterp: pow3Out
+interp: pow3Out
+} 
+effectColor: 7a7266c6
+attributes: {
+   gas: 1
+   explosive: 0.3534
+}

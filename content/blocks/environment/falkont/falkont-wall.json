@@ -1,0 +1,8 @@
+{
+	"type": "StaticWall",
+	"name": "falkont wall",
+	"description": "falkont wall",
+	"attributes": {
+		"falkont": 1,
+	}
+}

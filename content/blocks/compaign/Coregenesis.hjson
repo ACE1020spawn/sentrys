@@ -1,0 +1,28 @@
+type: CoreBlock
+localizedName: Core genesis
+description: "your first core"
+category: effect
+health: 1000
+size: 3
+
+itemCapacity: 2000          //Вместимость ядра
+unitCapModifier: 3          //На сколько увеличивает максимальное количество юнитов, которых можно построить
+unitType: "arach"
+incinerateNonBuildable: true        //Нельзя строить в игре (true - да нельзя, false - нет можно); Для первого ядра стоит ставить true
+isFirstTier: true           //Первое ядро? (У нас да, значит true)
+squareSprite: false             //Квадратный спрайт? (Ставьте false)
+
+//Что нужно для постройки (пока оставим пустым)
+requirements: [
+
+]
+
+
+//К чему прикрипленно? (в нашем случае к нашей планете)
+research: {
+    root: true
+    name: sentrys
+	planet: sentrys
+}
+
+alwaysUnlocked: true            //Всегда открыто? (для первого ядра всегда оставляем true)

@@ -1,0 +1,33 @@
+{
+	"type": "WallCrafter",
+                "name": "vertran drill",
+                "description": "crushes falkont",
+	"size": 2,
+	"category": "production",
+	"drillTime": 460,
+	"output": "falkont",
+	"attribute": "falkont",
+                "consumes": {
+		"power": 1
+		}
+              	"ambientSound": "drill",
+	"ambientSoundVolume": 0.1,
+	"requirements": ["vertran/30"],
+	"category": "production",
+	"research": "vertran-drill",
+	"drawer": {
+ 	 "type": "DrawMulti",
+ 	 "drawers": [
+		{
+		"type": "DrawDefault",
+		}
+		{
+		"type": "DrawWarmupRegion",
+		}
+		{
+		"type": "DrawGlowRegion",
+		"color": a4a2cf,
+		}
+	  ]
+	}
+}

@@ -1,0 +1,16 @@
+  localizedName: falkont
+  name: falkont
+  description: "This is a mineral with large impurities of metal powder, you will need it in many places."
+  explosiveness: 0
+  flammability: 0
+  radioactivity: 0
+  charge: 0
+  color: 38363e
+  cost: 1
+  hiddenOnPlanets: [
+    serpulo
+    erekir
+  ]
+  research: {
+    parent: Coregenesis
+  }

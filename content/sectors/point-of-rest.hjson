@@ -1,0 +1,17 @@
+localizedName: point of rest
+  description: Your first sector, surprisingly, no one noticed you, so you are completely safe here. for a while...
+  captureWave: 0
+  difficulty: 1      //Сложность сектора
+  alwaysUnlocked: true     //Всегда открыт? (Оставляйте true)
+  addStartingItems: false
+  startWaveTimeMultiplier: 0
+  useAI: false      //Используется ИИ? (Оставляйте false, если только вы не указали в карте, чтобы враг использовал ИИ)
+  showSectorLandInfo: true      //Показывать описания сектора? (true - да, false - нет)
+  planet: sentrys
+  name: point-of-rest      //Название сектора (в коде)
+  sector: 1       //Сектор (какой сектор на планете)
+
+  //К чему прикреплён сектор
+  research: {
+    parent: "Coregenesis"
+  }

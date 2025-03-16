@@ -1,0 +1,34 @@
+type: BeamDrill
+name: "vertran drill"
+description: "drill ores"
+size: 2
+squareSprite: true
+requirements: [
+vertran/30
+]
+drillTime: 460
+range: 3
+tier: 2
+consumes: {
+  power: 1
+}
+category: production
+research: Coregenesis
+researchCost: [
+vertran/60
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+	{
+	type: DrawDefault
+	},
+	{
+	type: DrawWarmupRegion
+	},
+	{
+	type: DrawGlowRegion
+	color: a4a2cf
+	},
+  ]
+}
