@@ -15,7 +15,7 @@ alwaysUnlocked: true      //Всегда ли разблокированна? (�
 defaultCore: "Coregenesis"       //Основное ядро (В данном случае Осколок). Можно создать своё ядро и указать здесь
 sectorSeed: 0       //Семя сектора
 startSector: 1      //Начальный сектор 
-sectorSize: 1       //Размер секторов
+sectorSize: 1   //Размер секторов
 
 clearSectorOnLose: true       //Очищать сектор после проигрыша? (true - да, false - нет)
 allowSectorInvasion: false      //Возможность атаки с вражеских секторов (true - будет атака с вражеских секторов, false - враги не будут атаковать соседние сектора)
@@ -37,19 +37,67 @@ cloudMesh: {
   thresh: 0.45
 }
 
-mesh: {
+mesh: [
+ {
+ //dark purple
     type: NoiseMesh
-    planet: sentrys
-    seed: 562697
-    color1: 44002c
-    color2: 550037
+	bloom: true
+    seed: 634
+    color1: 393137
+    color2: 1c0c19
     divisions: 6
     radius: 0.9
     octaves: 5
     persistence: 1
     scl: 0.75
     mag: 1.2
-}
+ }
+ {
+ //gray
+    type: NoiseMesh
+	bloom: false
+    seed: 862
+    color1: 38363e
+    color2: 131217
+    divisions: 2
+    radius: 0.87
+    octaves: 5
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+ }
+ {
+ //pink
+    type: NoiseMesh
+	bloom: true
+    seed: 143
+    color1: ee8ccc
+    color2: 7d3c66
+    divisions: 4
+    radius: 0.86
+    octaves: 8
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+ }
+ {
+ //green
+    type: NoiseMesh
+	bloom: true
+    seed: 665
+    color1: b0d9be
+    color2: 5f7567
+    divisions: 8
+    radius: 0.88
+    octaves: 4
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+ }
+]
+
+//bloom: false
+alwaysUnlocked: true
 
 //Спрятанные предметы на планете
 //Если вам нужны ванильные предметы такие как Медь, Свинец, Бериллий - удалите все предметы из этого пункта
