@@ -1,0 +1,4 @@
+type: floor,
+name: fascinated kemet floor,
+variants: 3,             //Кол-во вариаций (Спрайтов)
+wall: kemet-wall

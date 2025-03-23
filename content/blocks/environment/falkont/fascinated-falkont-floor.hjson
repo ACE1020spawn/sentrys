@@ -1,0 +1,4 @@
+type: floor,
+name: falkont floor,
+variants: 3,             //Кол-во вариаций (Спрайтов)
+wall: falkont-wall
